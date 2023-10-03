@@ -1,0 +1,31 @@
+.search, .+, .CreateAccount {
+
+    Display: block;
+    margine-bottom: 15px;
+    height: 50px
+}
+
+.search {
+    font-weight:700;
+    width:200px;
+    border-radius:20px;
+    color:aquamarine;
+    border: 2 px solid darkcyan;
+    background-color: antiquewhite;
+}
+
+.add {
+    width: 30px;
+    background-color: brown;
+    color: antiquewhite;
+    border-radius: 50%;
+    border: 2 px solid darkcyan
+}
+
+.CreateAccount {
+    width: 200px;
+    background-color: beige;
+    color: olive;
+    border: 5px solid darkgoldenrod;
+    box-shadow: 5px 5px grey;
+}
