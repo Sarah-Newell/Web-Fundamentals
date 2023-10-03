@@ -1,0 +1,20 @@
+* {
+
+}
+
+.title {
+    color: darkblue;
+    font-family: Arial;
+    text-align: center;
+}
+.container {
+    height: 300px;
+    width: 900px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+.image {
+    margin: 30px;
+    
+}
