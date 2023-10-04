@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+.container {
+    width: 600px;
+    height: 300px;
+    margin: 30px;
+    border: 3px solid black;
+
+}
+.top-row {
+background-color: cornflowerblue;
+height: 125px;
+margin-bottom: 20px;
+}
+.text {
+    margin: 0px 0px 0px 30px;
+}
+.middle-row{
+   display: flex;
+   align-items: top;
+   Justify-content: left;
+   margin: 0px 0px 0px 30px;
+}
+.image1 {
+    width: 15%;
+    height: auto;
+    margin: 50px 0px 0px 50px;
+}
+.image2 {
+    width: 3%;
+    height: auto;
+}
+.image3 {
+    width: 3%;
+    height: auto;
+    margin: 0px 0px 0px 30px;
+}
