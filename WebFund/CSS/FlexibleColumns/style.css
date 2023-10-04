@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    border:0;
+}
+
+.row {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+.col {
+    height: 500px;
+    width: 250px;
+    background-color: pink;
+    flex:1;
+    margin: 20px;
+}
+.col-2 {
+    height: 500px;
+    width: 250px;
+    background-color: pink;
+    flex:2;
+    margin: 20px;
+}
+.col-3 {
+    height: 500px;
+    width: 250px;
+    background-color: pink;
+    flex:3;
+    margin: 20px;
