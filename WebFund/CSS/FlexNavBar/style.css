@@ -18,8 +18,9 @@
     padding: 10px;
     font-family: courier new;
     display: flex;
-    align-items: end;
-    justify-content: center;
+    align-items: left;
+    flex: 50%;
+    justify-content: left;
 }
 .nav-links {
     color: white;
@@ -41,7 +42,7 @@
     color: white;
     font-weight: bold;
     background-color:aqua;
-    border: 5 px solid black;
+    border: 2px solid black;
     padding: 5px;
     font-family: courier new;
     box-shadow: 5px 5px rgb(8, 8, 8);

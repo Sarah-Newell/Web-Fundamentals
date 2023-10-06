@@ -1,0 +1,187 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+/*========================Whole Page================*/
+
+.page{
+   
+    font-family: sans-serif;
+}
+/*=======================NAV BAR======================*/
+.nav {
+    background-color: rgb(85, 80, 80);
+    color: white;
+    Height: 80px;
+    font-family: courier new;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+}
+.nav-title {
+    color: white;
+    padding: 10px;
+    font-family: courier new;
+    display: flex;
+    align-items: left;
+    flex: 50%;
+    justify-content: left;
+}
+.nav-links {
+    color: white;
+    padding: 10px;
+    font-family: courier new;
+    text-decoration: none;
+    display: inline;
+}
+.active {
+    color: white;
+    padding: 10px;
+    font-family: courier new;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline;
+}
+.btn {
+    display: inline;
+    color: white;
+    font-weight: bold;
+    background-color:rgb(5, 69, 69);
+    border: 2px solid black;
+    padding: 5px;
+    font-family: courier new;
+    box-shadow: 5px 5px rgb(8, 8, 8);
+}
+/*=======================Columns==========================*/
+
+.content {
+    display: flex;
+}
+
+
+
+/*========================Profile Card=============================*/
+
+.container {
+    width: 400px;
+    height: 250px;
+    margin: 30px;
+    border: 3px solid grey;
+}
+.top-row {
+    background-color: cornflowerblue;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.text {
+    margin: 5px 5px 5px 30px;
+}
+.middle-row {
+   display: flex;
+   align-items: top;
+   Justify-content: left;
+   margin: 0px 0px 0px 30px;
+}
+.image1 {
+    width: 20%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.image2 {
+    width: 3%;
+    margin: 0px 5px 0px 0px;
+    height: auto;
+}
+.image3 {
+    width: 3%;
+    height: auto;
+    margin: 0px 0px 0px 30px;
+}
+/*================================Box Design==============================*/
+
+.box {
+    width: 400px;
+    height: 125px;
+    margin: 30px 0px 0px 30px;
+    border: 3px solid grey;
+}
+.toprow {
+    Width: 400px;
+    height: 30px;
+    background-color: grey;
+}
+.button {
+    border-radius: 25px;
+    width: 30px;
+    padding: 2px;
+}
+
+
+/*=================================Box1======================================*/
+
+.h1 {
+    font-size: medium;
+    padding: 5px 5px 5px 30px;
+    color: white;
+}
+.h2 {
+    font-size: large;
+    padding: 5px 5px 5px 30px;
+}
+.h4 {
+    font-size: medium;
+    color: grey;
+    padding: 5px 5px 5px 30px; 
+}
+.h3 {
+    font-size: medium;
+    padding: 5px 5px 5px 30px;
+}
+/*=================================Box2======================================*/
+
+.image4 {
+    width: 30px;
+    height: auto;
+}
+.button2 {
+    border-radius: 25px;
+    color: white;
+    background-color: grey;
+    width: 30px;
+}
+.p1 {
+    color: black;
+    padding: 5px;
+    margin: 0px 0px 0px 30px;
+}
+/*=================================Box3======================================*/
+
+.box3 {
+    height: auto;
+}    
+.button3 {
+    border-radius: 25px;
+    width: 50px;
+    padding: 2px;
+    color: black;
+    margin: 0px 0px 0px 30px;
+}
+.toprow2 {
+    Width: 400px;
+    height: 30px;
+    background-color: grey;
+    color: white;
+}
+/*=================================Box3======================================*/
+
+.box4 {
+        width: 380px;
+        height: auto;
+        margin: 0px 0px 0px 30px;
+        border: 3px solid grey;
+        padding: 10px;
+}
