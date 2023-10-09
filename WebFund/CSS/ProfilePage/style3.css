@@ -7,6 +7,7 @@
 /*========================Whole Page================*/
 
 .page{
+   
     font-family: sans-serif;
 }
 /*=======================NAV BAR======================*/
@@ -122,6 +123,17 @@
 
 /*=================================Box1======================================*/
 
+.col3 {
+ 
+  }
+.col4 {
+    display: flex;
+    align-items: right;
+}
+.col5 {
+    display: flex;
+}
+
 .h1 {
     font-size: medium;
     padding: 5px 5px 5px 30px;
@@ -178,9 +190,9 @@
 /*=================================Box3======================================*/
 
 .box4 {
-    width: 380px;
-    height: auto;
-    margin: 0px 0px 0px 30px;
-    border: 3px solid grey;
-    padding: 10px;
+        width: 380px;
+        height: auto;
+        margin: 0px 0px 0px 30px;
+        border: 3px solid grey;
+        padding: 10px;
 }
