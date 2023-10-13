@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    
+}
+.flex {
+    display: flex;
+}
+.justify {
+    justify-content: space-between;
+}
+.align {
+    align-items: center;
+}
+/*=================Nav Bar====================*/
+
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    color: white;
+}
+#Profile {
+    justify-content: left;
+    align-items: left;
+}
