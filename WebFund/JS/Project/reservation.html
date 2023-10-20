@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <title>My K9 Kampus</title>
+   <!-- load Bootstrap -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+   <div class="wholepage">   
+      <h1>K9 Kampus</h1>
+      <h1>321-622-8971</h1>
+      <div class="navbar bkgd-color">
+          <a href="index.html">Home</a>
+          <a href="service.html">Services</a>
+          <a href="rules.html">Rules & Regulations</a>
+          <a href="registration.html">Registration</a>
+          <a href="reservation.html">Reservations</a>
+          <div class="nav-search">
+              <input type="text" placeholder="Search...">
+              <button type="submit">Search</button>
+          </div>
+      </div> 
+         <form>   
+            <div class="float-leftR background">
+               <p action="submit-my-form.php" method="post" class="form">
+               <div class="reservform">
+                  <label><h4>Daycare Reservations</h4></label>
+                     <p><label for="startDate">Daycare Start Date:</label>
+                     <input type="date" id="startDate" placeholder="mm/dd/yyyy"></p>
+                  
+                     <p><label for="endDate">Daycare End Date:</label>
+                     <input type="date" id="endDate" name="endDate"></p>
+                  
+                     <p><label for="dropoff">Drop Off Time:</label>
+                     <input type="time" id="dropoff" name="dropoff"></p>
+                  
+                     <p><label for="pickup">Pick-Up Time:</label>
+                     <input type="time" id="pickup" name="pickup"></p>
+
+                     <p><label>Number of Guests:</label>
+                     <input type="number" id="numberguests" name="numberguests"></p>
+              
+                  <label><h5>Services Requested:</h5></label><br>
+                  <div class="servreq">
+                     <label>Bath Type</label><br>
+                     <input type="radio" id="oatbath" name="bath" value="oatbath">
+                     <label for="oatbath">Oatmeal Bath</label><br>
+                     
+                     <input type="radio" id="berrybath" name="bath" value="berrybath">
+                     <label for="berrybath">Mixed Berry Bath</label><br>
+                     
+                     <input type="radio" id="hypobath" name="bath" value="hypobath">
+                     <label for="hypobath">Hypoalergenic Bath</label><br>
+                     
+                     <label>Dry Type</label><br>
+                     <input type="radio" id="towel" name="dry" value="towel">
+                     <label for="towel">Towel Dry</label><br>
+                     
+                     <input type="radio" id="blow" name="dry" value="blow">
+                     <label for="blow">Blow Dry</label><br>
+                     
+                     <label>Nail Trim</label><br>
+                     <input type="radio" id="nails" name="nails" value="nails">
+                     <label for="nails">Nail Trim</label><br>
+
+                     <p><label>Additional Notes:</label>
+                     <input type="text" class="addreq"></p>
+                  </div>   
+                  
+                     <p><label for="servdate">Service Request Date:</label>
+                     <input type="date" id="servdate" name="servdate"></p>
+               </div>     
+
+               <div class="servreq">
+                     <label><h4>Bording Reservations</h4></label>
+                     <p><label for="startDate">Bording Start Date:</label>
+                     <input type="date" id="startDate" name="startDate"></p>
+                  
+                     <p><label for="endDate">Bording End Date:</label>
+                     <input type="date" id="endDate" name="endDate"></p>
+                  
+                     <p><label for="dropoff">Drop Off Time:</label>
+                     <input type="time" id="dropoff" name="dropoff"></p>
+                  
+                     <p><label for="pickup">Pick-Up Time:</label>
+                     <input type="time" id="pickup" name="pickup"></p>
+               
+                     <p><label>Number of Guests:</label>
+                     <input type="number" id="numberguests" name="numberguests"></p>
+
+                     <label><h5>Suite Request:</h5></label><br>
+                     <div class="servreq">
+                     <input type="radio" id="suite" name="suite" value="suite">
+                     <label for="suite">4 x 8 Basic Suite</label><br>
+                     
+                     <input type="radio" id="suite" name="suite" value="suite">
+                     <label for="suite">4 x 8 Cave Suite</label><br>
+               
+                     <input type="radio" id="suite" name="suite" value="suite">
+                     <label for="suite">8 x 8 Basic Suite</label><br>
+
+                     <input type="radio" id="suite" name="suite" value="suite">
+                     <label for="suite">8 x 8 Cave Suite</label><br>
+
+                     <input type="radio" id="suite" name="suite" value="suite">
+                     <label for="suite">15 x 12 Executive Suite</label><br>
+                     </div>
+                  
+                     <p><label>Additional Notes:</label>
+                     <input type="text" class="addreq"></p>
+                  
+                     <button class="reservation" type="submit">Submit Reservation</button>
+                  </div>
+
+
+            </form>
+         </div>
+
+
+
+
+   <script class="js" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url('standingxena.jpg');
+    background-size: 1000px;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+} 
+p {
+    padding-left: 20px;
+}
+li {
+    list-style-position: inside;
+}
+
+/*===============NavBar================*/
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    color: rebeccapurple;
+    text-shadow: 1px 1px 2px pink;
+    font-size: 50px;
+}
+.navbar {
+    box-shadow: 3px 3px 3px green;
+    text-shadow: 1px 1px 1px grey;
+    border-radius: 25px;
+}
+.bkgd-color {
+    background-color: rgb(162, 228, 133);
+    margin: 50px 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-search input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+}
+.nav-search button {
+    background-color: #73c41c; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    box-shadow: 2px 2px grey;
+}
+/*==============Location================*/
+
+.float-right {
+    float: right;
+    width: 30%;
+    margin-left: 20px;
+}
+.background {
+    background-color:rgb(162, 228, 133);
+    margin: 50px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px green;
+}
+/*===============Vaccinations=============*/
+
+.float-left {
+    float: left;
+    width: 75%;
+    margin-right: 20px
+}
+/*===================Services===============*/
+
+h7 {
+    font-weight: bold
+}    
+/*===================Reservations============*/
+
+.float-leftR {
+    float: left;
+    width: 50%;
+    margin-right: 20px
+}
+.reservform {
+    margin-left: 20px;
+}
+.servreq {
+    margin-left: 20px;
+}
+.addreq {
+    width: 300px;
+    height: 50px;
+}
+.reservation {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    margin-left: 200px;
+    box-shadow: 2px 2px grey;
+}
+input[type="date"]::placeholder {
+    color: #999;
+    font-style: italic;
+    font-size: 14px;
+}
